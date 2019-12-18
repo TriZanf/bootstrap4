@@ -11,6 +11,9 @@ font-family: 'Roboto', sans-serif;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
   
 }
@@ -18,4 +21,41 @@ font-family: 'Roboto', sans-serif;
 .features-container {}
 
 .quotes-container {}
+
+/*jumbotron*/
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+p > small {
+    font-size: 60%;
+    font-style: italic;
+    color: #ffffff;
+    
+}
+
+.lead {
+    color: #ffffff;
+}
+
+.hr1 {
+    color: white bold;
+    
+}
+
+.section-devider {
+    
+    background-color: #e43d0b;
+    width: 80px;
+    height: 5px;
+    border-radius: 2px;
+}
+
 
