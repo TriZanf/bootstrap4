@@ -11,7 +11,21 @@
 <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 <body>
-<nav class="navbar navbar-light bg-light navbar-expand-sm">
+<div class="container-fluid navalert-container">
+<div class="container-fluid alert-container">
+    <div class="row d-none d-sm-block">
+    <div class="col-12">
+    <div class="site-wide-alert alert alert-warning">
+    <strong>SALE NOW ON!</strong> Get 12 months of subscription for the price of 6!
+    <a href=""> See here for details! </a>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    
+
+<nav class="navbar navbar-dark navbar-expand-sm">
     <a href="/" class="navbar-brand">Whisky Drop</a>
         
         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" 
@@ -26,36 +40,38 @@
                             role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Whiskeys
             </a>
+            
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="#">Irish</a>
                     <a class="dropdown-item" href="#">Scotch</a>
                     <a class="dropdown-item" href="#">Japanese</a>
                     <a class="dropdown-item" href="#">American</a>
                 </div>
+                
+                
             </li>
+            
 
         <li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign In / Sing Up</a></li>
         
         <div class="d-none d-md-block">
         <p class="navbar-text my-auto ml-2"><i>Great whisky delviered to your door!</i></p>
-        <a href="/login" class="my-auto ml-2">Sign In / Sign Up</a>
+        <a href="/login" class="btn btn--cta btn--red">Sign In / Sign Up</a>
         </div>
+        
+        
     </ul> 
     </div>
+    
+    
 
 </nav>
+</div>
+</div>
 
-<div class="container alert-container">
-    <div class="row">
-    <div class="col-12">
-    <div class="alert alert-warning d-none d-sm-block">
-    <strong>SALE NOW ON!</strong> Get 12 months of subscription for the price of 6!
-    <a href=""> See here for details! </a>
-    </div>
-    </div>
-    </div>
-    </div>
-    
+
+
+ 
     
 <div class="container-fluid jumbotron callout-container">
    <div class="opaque-overlay">&nbsp;</div>
@@ -66,7 +82,7 @@
     <hr class="block-divider block-divider--orange">
     <p class="lead"> Sign up today to recieve the world's best whisky every month.
     <s class="d-none d-sm-inline"> €19.99 </s><mark><strong> First one is free!</mark><strong> </p>
-        <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
+        <button class="btn btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
     <p class="text-muted"><small> You must be over 18 to signup for our service. Please drink responsibly.</small></p>
     </section>
     </div>
@@ -179,7 +195,7 @@
   <div class="form-group">
     <label for="password">Password</label>
     <input type="password" class="form-control" id="password">
-    <div class="foßrm-group">
+    <div class="form-group">
     <label for="repeatPassword">Repeat Password</label>
     <input type="password" class="form-control" id="repeatPassword">
   </div>

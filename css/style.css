@@ -2,7 +2,22 @@ body {
 font-family: 'Roboto', sans-serif;
 }
 
-.alert-container {}
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+.site-wide-alert .alert .alert-warning {
+    border-radius: 0;
+    margin-bottom: 0;
+    padding: 5px 15px;
+    background-color: #eec802;
+    border-color: #eec802;
+
+}
+
+
 
 .callout-container {
     height: 100vh;
@@ -43,7 +58,35 @@ font-family: 'Roboto', sans-serif;
     background-color: #f05f40;
 }
 
+/* Navbar */
 
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba (0,0,0,0.25);
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
 /*jumbotron*/
 
 .jumbotron {
@@ -51,7 +94,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 .jumbotron-header {
-    color: #679a66;
+    color: white;
     font-weight: bold;
     margin-bottom: 30px;
 }
@@ -71,28 +114,28 @@ p > small {
     color: white bold;
     
 }
+/*button*/
 
-.section-devider {
-    
-    background-color: #e43d0b;
-    width: 80px;
-    height: 5px;
-    border-radius: 2px;
-}
-
-/*bottons*/
-
-.btn--cta {
+.btn .btn--cta {
     font-weight: bold;
     border-radius: 23px;
     width: 160px;
 
 }
 
-.btn--red {
+.btn .btn--red {
     color: white;
     background-color: #f05f40;
     border-color: #f05f40;
+
+
+
+.btn--red :hover,
+.btn--red :active,
+.btn--red :focus,
+.btn--red :active:focus {
+    background-color: #e01e1eeb;
+    border-color: #f3eded;
 }
 
 
