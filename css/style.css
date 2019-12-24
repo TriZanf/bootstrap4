@@ -48,6 +48,7 @@ font-family: 'Roboto', sans-serif;
     height: 100%;
     width: 100%;
     background-color: rgba(0,0,0,0.5)
+    
 }
 
 .features-container {}
@@ -64,6 +65,10 @@ font-family: 'Roboto', sans-serif;
 
 .page-header h2 {
     margin-top: 0;
+}
+
+.quotes .page-header {
+    margin-bottom: 25px;
 }
 /*Block Deviders*/
 
@@ -150,11 +155,29 @@ p > small {
 }
 /*button*/
 
-.btn--cta {
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #eef1e9;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #f05f40;
+    border: 1px solid #f05f40;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+
+ .btn--cta {
     font-weight: bold;
     border-radius: 23px;
     width: 160px;
-
 }
 
 .btn--red {
@@ -165,12 +188,36 @@ p > small {
 
 
 
+
 .btn--red :hover,
 .btn--red :active,
 .btn--red :focus,
 .btn--red :active:focus {
     background-color: #e01e1eeb;
     border-color: #f3eded;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    margin-top: 10px;
+    min-width: 100px;
+    font-weight: bold;
+    color: #f05f40;
+
 }
 
 
