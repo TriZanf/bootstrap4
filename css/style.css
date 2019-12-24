@@ -77,6 +77,10 @@ font-family: 'Roboto', sans-serif;
     background-color: #f05f40;
 }
 
+.block-divider--white {
+    background-color: white;
+}
+
 .block-divider--short {
     width: 35px;
 }
